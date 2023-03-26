@@ -1,0 +1,16 @@
+name: titanic_env
+channels:
+  - conda-forge
+  - defaults
+  - fastai
+  - pytorch
+dependencies:
+  - python=3.8
+  - ipython
+  - ipykernel
+  - pandas
+  - ydata-profiling
+  - scikit-learn
+  - keras
+  - tensorflow
+  - pydotplus
